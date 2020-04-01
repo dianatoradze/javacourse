@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54eead8b-c5b2-47ac-a897-6b381e250b1e" name="Default Changelist" comment="" />
+    <list default="true" id="54eead8b-c5b2-47ac-a897-6b381e250b1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/out/production/text/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/text.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringExperiments/out/production/StringExperiments/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/out/production/StringExperiments/Loader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringExperiments/src" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/surname/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/surname/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +29,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YRnxK9OtS6Rvqbvx9UufITIEDx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +41,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Java/Файлы/StringExperiments/src" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../text" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -38,6 +58,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -52,29 +84,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1583000536836">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1584382865947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583000536836" />
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1582998956728">
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1584382865947" />
+    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1585746518021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582998956728" />
-    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1582998956727">
+    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585746518021" />
+    <state width="1323" height="105" key="GridCell.Tab.0.bottom" timestamp="1585747218104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582998956727" />
-    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1582998956727">
+    <state width="1323" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585747218104" />
+    <state width="1323" height="105" key="GridCell.Tab.0.center" timestamp="1585747218102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582998956727" />
-    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1582998956728">
+    <state width="1323" height="105" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585747218102" />
+    <state width="1323" height="105" key="GridCell.Tab.0.left" timestamp="1585747218102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582998956728" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1582995729641">
+    <state width="1323" height="105" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585747218102" />
+    <state width="1323" height="105" key="GridCell.Tab.0.right" timestamp="1585747218103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582995729641" />
+    <state width="1323" height="105" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585747218103" />
+    <state x="65" y="0" key="new project wizard" timestamp="1583517621598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583517621598" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1584554756379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584554756379" />
   </component>
 </project>
