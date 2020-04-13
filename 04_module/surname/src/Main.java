@@ -13,14 +13,14 @@ for (int i = 0; i < surname.length(); i++) {
        count++;
      }
  }
-            if (count != 3) {
+            if (count != 3 && count != 4) {
                 System.out.println("Проверьте правильно ли введено ФИО");
             }
         else {
                 String[] text = surname.split("\\s+");
                 for (int i = 0; i < text.length; i++) {
                     count++;
-                    System.out.println(text[i]);
+                    System.out.println(text[i].replaceAll("^[А-Яа-я]{2,20}\\s+[А-Яа-я]{2,20}$", ""));
                 }
             }
         }

@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54eead8b-c5b2-47ac-a897-6b381e250b1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/out/production/text/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/text.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StringExperiments/out/production/StringExperiments/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/out/production/StringExperiments/Loader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StringExperiments/src" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/src" afterDir="false" />
@@ -42,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StringExperiments" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,26 +80,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1584382865947" />
-    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1585746518021">
+    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1586797289873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585746518021" />
-    <state width="1323" height="105" key="GridCell.Tab.0.bottom" timestamp="1585747218104">
+    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586797289873" />
+    <state width="1323" height="117" key="GridCell.Tab.0.bottom" timestamp="1585932658973">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585747218104" />
-    <state width="1323" height="105" key="GridCell.Tab.0.center" timestamp="1585747218102">
+    <state width="1323" height="117" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585932658973" />
+    <state width="1323" height="117" key="GridCell.Tab.0.center" timestamp="1585932658971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="105" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585747218102" />
-    <state width="1323" height="105" key="GridCell.Tab.0.left" timestamp="1585747218102">
+    <state width="1323" height="117" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585932658971" />
+    <state width="1323" height="117" key="GridCell.Tab.0.left" timestamp="1585932658970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="105" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585747218102" />
-    <state width="1323" height="105" key="GridCell.Tab.0.right" timestamp="1585747218103">
+    <state width="1323" height="117" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585932658970" />
+    <state width="1323" height="117" key="GridCell.Tab.0.right" timestamp="1585932658972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="105" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585747218103" />
+    <state width="1323" height="117" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585932658972" />
     <state x="65" y="0" key="new project wizard" timestamp="1583517621598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
