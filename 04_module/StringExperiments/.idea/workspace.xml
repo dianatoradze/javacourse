@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74551ef3-e027-45c0-ba92-5e70ee5f73c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StringExperiments/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StringExperiments/Loader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../surname/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../surname/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../surname/out/production/surname/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../surname/out/production/surname/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../surname/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../surname/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1YRjP4Y9VOV2bPtuNaZdRhP0WiT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +36,7 @@
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -180,10 +174,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585069315314" />
-    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1585756358504">
+    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1587056558924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585756358504" />
+    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587056558924" />
     <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1586797500717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
