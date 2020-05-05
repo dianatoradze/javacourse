@@ -2,6 +2,9 @@ import java.util.Scanner;
 // homework done
 public class Main {
     public static void main(String[] args) {
+        final String REG_LAST_NAME = "([А-ЯЁ][а-яё]+[\\s|-]?([А-ЯЁ]?[а-яё]+))";
+        final String REG_NAME = "([А-ЯЁ][а-яё]*-?([А-ЯЁ]?[а-яё]+))";
+        final String REG_FULL_NAME = String.format("^%s %s %s$", REG_NAME, REG_NAME, REG_LAST_NAME);
         Scanner in = new Scanner(System.in);
         System.out.println("Введите слова одной строкой через пробел");
         String surname = in.nextLine();
@@ -20,7 +23,7 @@ for (int i = 0; i < surname.length(); i++) {
                 String[] text = surname.split("\\s+");
                 for (int i = 0; i < text.length; i++) {
                     count++;
-                    System.out.println(text[i].replaceAll("^[А-Яа-я]{2,20}\\s+[А-Яа-я]{2,20}$", ""));
+                    System.out.println(text[i].replaceAll("REG_FULL_NAME", ""));
                 }
             }
         }
