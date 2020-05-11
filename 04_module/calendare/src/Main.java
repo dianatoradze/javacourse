@@ -1,19 +1,23 @@
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class Main {
     public static void main(String[] args) {
-        Calendar c2 = Calendar.getInstance();
-        Date dr = new Date;
-        c2.setTime(dr); // Дата рождения
-        c2.set(Calendar.YEAR, 2016);          // год который вам нужен
+        SimpleDateFormat dateFormat = new SimpleDateFormat("d.MM.yyyy-EEEE");
+        Calendar date = Calendar.getInstance();
+        System.out.println(dateFormat.format(date.getTime()));
 
-        System.out.println(c2.getTime());     // результат для того что бы добавить 18 лет
+        GregorianCalendar calendar = new GregorianCalendar(1987, Calendar.JUNE , 17);
 
-        Calendar c = Calendar.getInstance();
-        c.setTime(dr); // Дата рождения
-        c.add(Calendar.YEAR, 18);    // добавляем 18 лет
+        System.out.println(0 + "-" + dateFormat.format(calendar.getTime()));
 
-        System.out.println(c.getTime());     // результат
+        for  (int i = 1; i <= 32; i++){
+                calendar.roll( Calendar.YEAR,1);
+                System.out.println(i + "-" + dateFormat.format(calendar.getTime()));
+            }
+        }
     }
-}
+
