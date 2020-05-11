@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
-
+//homework
 public class Main {
     public static void main(String[] args) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("d.MM.yyyy-EEEE");
