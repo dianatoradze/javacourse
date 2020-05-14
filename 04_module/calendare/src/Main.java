@@ -11,13 +11,17 @@ public class Main {
         System.out.println(dateFormat.format(date.getTime()));
 
         GregorianCalendar calendar = new GregorianCalendar(1987, Calendar.JUNE , 17);
-
         System.out.println(0 + "-" + dateFormat.format(calendar.getTime()));
+        boolean time = false;
 
-        for  (int i = 1; i <= 32; i++){
-                calendar.roll( Calendar.YEAR,1);
+            for (int i = 1; i < 100; i++) {
+                if (calendar.before(date)) {
+
+                calendar.roll(Calendar.YEAR, 1);
                 System.out.println(i + "-" + dateFormat.format(calendar.getTime()));
+                    time = true;
+                }
             }
-        }
+       }
     }
 
