@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main (String[] args)
     {
-    //  +7 909 123-45-67
+    //  формат вывода +7 909 123-45-67
         Scanner in = new Scanner(System.in);
         System.out.println("Введите номер телефона");
         String phone = in.nextLine();
