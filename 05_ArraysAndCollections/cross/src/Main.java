@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        int sizeX = 7;
-        int sizeY = 7;
-        String[][] array = new String[sizeX][sizeY];
+        int n = 7;
 
-        for (int i = 0; i < sizeX; i++) {
-            for (int j = 0; j < sizeY; j++) {
+        String[][] array = new String[n][n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
                 array[i][j] = " ";
-                array[i][sizeY - 1-j] = "x";
+                array[i][n - i-1] = "x";
                 if (i == j  ) {
                     array[i][j] = "x";
-                    array[i][sizeY - 1-j] = "x";
+                    array[i][n - i-1] = "x";
                 }
-                 System.out.print(array[i][j]);
+                   System.out.print(array[i][j]);
             }
             System.out.println();
         }
