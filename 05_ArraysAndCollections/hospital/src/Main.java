@@ -9,7 +9,7 @@ public class Main {
 
         for (int i = 0; i < t.length; i++) {
             t[i] = Math.round(((Math.random() * (8 + 1)) + 32)*10.0)/10.0;
-            System.out.print("Температура пациента №"); // так как в здании требуется в строку
+            System.out.print("Температура пациента №"); // так как в задании требуется в строку
             System.out.print((i+1) + ": "+ t[i] + " ");
         }
 
