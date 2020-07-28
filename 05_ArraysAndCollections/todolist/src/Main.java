@@ -11,7 +11,7 @@ public class Main {
         Scanner deal = new Scanner(System.in);
 
         int deleteNumber = 0;
-        int choice = 0;
+        String choice;
         int count=0;
         String dealEdit;
         String item;
@@ -23,10 +23,11 @@ public class Main {
         System.out.print("Введите цифру 1-5, соответствующей команде: ");
         Scanner dealItem = new Scanner(System.in);
 
-        while (choice != 5) {
-            choice = deal.nextInt();
+        while (deal.hasNext()) {
+
+            choice = deal.nextLine();
             switch (choice) {
-                case 1:
+                case "ADD":
                     System.out.println("Введите дело в список ");
                     for (int i = 0; i < todoList.size(); i++) {
                         ;
@@ -42,7 +43,7 @@ public class Main {
                         }
                     }
             break;
-                case  2:
+                case  "LIST":
                 for (String s1 : todoList) {
                     //item = s1;
                     if (!s1.equals("stop")) {
@@ -50,24 +51,29 @@ public class Main {
                     }
                 }
                 break;
-                case  3:
+                case  "EDIT":
                 System.out.println("Введите, новое дело вместо старого");
                 for (String s2 : todoList) {
                     dealEdit = deal.nextLine();
                     todoList.set(0, dealEdit);
                 }
                 break;
-                case  4:
+                case  "DELETE":
                 for (String s3 : todoList) {
                     System.out.println("Введите номер дела, которе нужно удалить");
                     deleteNumber = deal.nextInt();
                     todoList.remove(deleteNumber);
                 }
             break;
-                default:
-                deal.close();
 
-        }
-        }
-    }
+               case "EXIT":
+                   deal.close();
+                 break;
+            }
+//            String s = deal.nextLine();
+//            if (s.equals("EXIT")) {
+//                break;
+//            }
+     }
+ }
 }
