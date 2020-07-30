@@ -17,10 +17,10 @@ public class Main {
         String item;
 
         ArrayList<String> todoList = new ArrayList<>();
-        //int dealNumber = 1;
+
         todoList.add("delo pervoe");
         todoList.add("delo vtoroe");
-        System.out.print("Введите цифру 1-5, соответствующей команде: ");
+        System.out.print("Введите  команду: ");
         Scanner dealItem = new Scanner(System.in);
 
         while (deal.hasNext()) {
@@ -45,9 +45,8 @@ public class Main {
             break;
                 case  "LIST":
                 for (String s1 : todoList) {
-                    //item = s1;
-                    if (!s1.equals("stop")) {
-                        System.out.println("Ваш список дел: " + s1 + " номер " + todoList.indexOf(s1));
+                  if (!s1.equals("stop")) {
+                     System.out.println("Ваш список дел: " + s1 + " номер " + todoList.indexOf(s1));
                     }
                 }
                 break;
@@ -65,15 +64,10 @@ public class Main {
                     todoList.remove(deleteNumber);
                 }
             break;
-
                case "EXIT":
                    deal.close();
                  break;
-            }
-//            String s = deal.nextLine();
-//            if (s.equals("EXIT")) {
-//                break;
-//            }
+        }
      }
  }
 }
