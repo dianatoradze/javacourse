@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
         HashMap<String, String> phoneBook = new HashMap<>();
-        phoneBook.put("Anna", "1234567890");
+        phoneBook.put("Anna", "0123456789");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter command: ADD - find or enter contact, LIST - print contact ");
         while (scanner.hasNext()) {
@@ -18,11 +18,9 @@ public class Main {
                 case "ADD":
                     System.out.println("Enter name");
                     String name = scanner.next();
-                    new ItemShablon(name);
-
                     System.out.println("Enter phone number");
                     String phoneNumber = scanner.next();
-                    new ItemShablon(phoneNumber);
+                    new checkNameNumber(name, phoneNumber);
                     if (phoneBook.containsKey(name) && phoneBook.containsValue(phoneNumber)) {
                     System.out.println("name " + name + "- number telephone "    + phoneNumber);
                      } else {
@@ -41,9 +39,7 @@ public class Main {
                      { //добавила, потому что выводится не весь список при добавлении нового контакта
                          if (Validator.matcher.matches()) {
                          System.out.println("Phone Number Valid");
-                             name= digest.getKey();
-                             phoneNumber=digest.getValue();
-                             System.out.println(name + " - " + phoneNumber);
+                            System.out.println(digest.getKey() + " - " + digest.getValue());
                          }
                         else
                          {
@@ -65,4 +61,12 @@ public class Main {
         }
     }
 
+    private static class checkNameNumber {
+        public checkNameNumber(String name, String phoneNumber) {
+            String regexName = "([А-ЯЁ][а-яё]*-?([А-ЯЁ]?[а-яё]+))";
+            String regexPhoneNumber =   "((^\\+(\\D*\\d){11}$)|(^(\\D*\\d){10}$))";
+            System.out.println(name+" - " + Pattern.matches(regexName, name));
+            System.out.println(phoneNumber+" - " +Pattern.matches(regexPhoneNumber, phoneNumber));
+        }
+    }
 }

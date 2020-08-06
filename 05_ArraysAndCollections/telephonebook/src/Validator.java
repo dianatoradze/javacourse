@@ -8,7 +8,7 @@ public class Validator {
 
 
     private static final String PHONE_PATTERN =
-            "[+]?(\\d)(\\d{3})(\\d{3})(\\d{2})(\\d{2})";
+            "(?:\\+\\d)?\\(?\\d{3}\\)?\\d{3}-?\\d{2}-?\\d{2}";
     private static  final String NAME_PATTERN = "([А-ЯЁ][а-яё]*-?([А-ЯЁ]?[а-яё]+))";
 
     public  static boolean validateName(final String name){
