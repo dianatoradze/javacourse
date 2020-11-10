@@ -1,23 +1,24 @@
+import javax.swing.text.html.ListView;
 import java.util.*;
 
 public class Generated {
 
     public static void main(String[] args) {
 
+
         ArrayList<String> list = new ArrayList<>();
         list.addAll(numbersGemerator());
         Collections.sort(list);
             Scanner scanner = new Scanner(System.in);
 
+           HashSet<String> hashSet  = new HashSet<>(list);
+//        List <String> numbers=List.copyOf(list);
+//        HashSet<String> numbersHashSet = new HashSet<>(numbers);
 
-            HashSet<String> hashSet = new HashSet<>();
-          //hashSet.addAll(list); попытка 1
-//            hashSet.addAll(numbersGemerator()); попытка 2
-//            hashSet.retainAll(list);
            TreeSet<String> treeSet = new TreeSet<>();
            treeSet.addAll(list);
 
-            while (true) {
+            while (scanner.hasNext()) {
 
                 System.out.println("Введите номер для поиска");
                 String number = scanner.nextLine();
