@@ -1,23 +1,21 @@
 package accounts;
 public class Account {
-    double amount;
-    double balance;
-    int account;
+    protected double amount;
+     protected double balance;
+     protected int account;
 
     public double getAmount() {
         return amount;
     }
 
-    public int getAccount() {
+    protected int getAccount() {
         return account;
     }
 
     public Account(int accountNum) {
         account = accountNum;
     }
-
-
-    public double getBalance() {
+  public double getBalance() {
         return balance;
     }
 

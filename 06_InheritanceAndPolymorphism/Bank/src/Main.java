@@ -11,5 +11,6 @@ public class Main {
         billSend.withdrawal(20.00);
         System.out.println("Итоговый баланс: " + billSend.getBalance());
         System.out.println("Перевод средств " + bill.send(bill, 100));
+        
     }
 }
