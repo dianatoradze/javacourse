@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: IndividualBusinessmanTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.287 s <<< FAILURE! - in IndividualBusinessmanTest
+putMore1000  Time elapsed: 0.191 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <1990.0> but was: <0.0>
+	at IndividualBusinessmanTest.putMore1000(IndividualBusinessmanTest.java:37)
+
+put1000  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <995.0> but was: <0.0>
+	at IndividualBusinessmanTest.put1000(IndividualBusinessmanTest.java:30)
+
+take  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <494.0> but was: <0.0>
+	at IndividualBusinessmanTest.take(IndividualBusinessmanTest.java:52)
+
+takeTooMuchMoney  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <495.0> but was: <0.0>
+	at IndividualBusinessmanTest.takeTooMuchMoney(IndividualBusinessmanTest.java:60)
+
+putLess1000  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <495.0> but was: <0.0>
+	at IndividualBusinessmanTest.putLess1000(IndividualBusinessmanTest.java:23)
+

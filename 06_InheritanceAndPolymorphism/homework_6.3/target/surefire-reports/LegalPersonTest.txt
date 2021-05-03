@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: LegalPersonTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in LegalPersonTest
+put  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <1.0> but was: <0.0>
+	at LegalPersonTest.put(LegalPersonTest.java:23)
+
+take  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <0.99> but was: <0.0>
+	at LegalPersonTest.take(LegalPersonTest.java:38)
+
+takeTooMuchMoney  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <1.0> but was: <0.0>
+	at LegalPersonTest.takeTooMuchMoney(LegalPersonTest.java:46)
+
