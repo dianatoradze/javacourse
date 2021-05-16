@@ -32,13 +32,13 @@ public class Main {
     }
 
     private static void print(Company company) {
-        List<Employee> topSalaryStaff = company.getTopSalaryStaff(10);
         System.out.println("Самые высокие зарплаты");
+        List<Employee> topSalaryStaff = company.getTopSalaryStaff(5);
         for (Employee workers : topSalaryStaff) {
             System.out.println(workers.getMonthSalary());
         }
-        List<Employee> lowSalaryStaff = company.getLowestSalaryStaff(30);
         System.out.println("Самые низкие зарплаты");
+        List<Employee> lowSalaryStaff = company.getLowestSalaryStaff(5);
         for (Employee workers : lowSalaryStaff) {
             System.out.println(workers.getMonthSalary());
         }

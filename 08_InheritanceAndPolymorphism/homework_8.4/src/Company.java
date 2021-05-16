@@ -30,23 +30,27 @@ public class Company {
     }
 
     public List<Employee> getTopSalaryStaff(int count) {
-        Collections.sort(employees);
-        Collections.reverse(employees);
-        return getListEmployee(count);
-    }
-    public List<Employee> getLowestSalaryStaff(int count) {
-        return getListEmployee(count);
+        return getListEmployee(count, Comparator.comparingInt(Employee::getMonthSalary).reversed());
     }
 
-    private List<Employee> getListEmployee(int count) {
-        if (count < 0 && count > employees.size()) {
+    public List<Employee> getLowestSalaryStaff(int count) {
+        return getListEmployee(count, Employee::compareTo);
+    }
+
+    private List<Employee> getListEmployee(int count, Comparator <Employee> comparator) {
+        if (count < 0) {
             System.out.println("Неверное значение");
             return Collections.emptyList();
         }
-       else {
-            Collections.sort(employees);
+        if (count > employees.size()) {
+            count = employees.size();
         }
-        return employees.subList(0, count);
+        employees.sort(comparator);
+        List<Employee> result = new ArrayList<>();
+            for (int i = 0; i < count; i++) {
+                result.add(employees.get(i));
+            }
+            return result;
     }
 
     public List<Employee> getEmployees() {
