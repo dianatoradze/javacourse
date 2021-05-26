@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/Bank/Bank.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/Bank/Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/CreditCard.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/CreditCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml" filepath="$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_module/StringExperiments/StringExperiments.iml" filepath="$PROJECT_DIR$/04_module/StringExperiments/StringExperiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/Task/Task.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/Task/Task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_module/calendare/calendare.iml" filepath="$PROJECT_DIR$/04_module/calendare/calendare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/colors/colors.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/colors/colors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/cross/cross.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/cross/cross.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/email/email.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/email/email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/generator/generator.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/generator/generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_InheritanceAndPolymorphism/homework_8.4/homework_8.4.iml" filepath="$PROJECT_DIR$/08_InheritanceAndPolymorphism/homework_8.4/homework_8.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/hospital/hospital.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/hospital/hospital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java_basics.iml" filepath="$PROJECT_DIR$/.idea/java_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_module/phone/phone.iml" filepath="$PROJECT_DIR$/04_module/phone/phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/src/src.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/src/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_module/surname/surname.iml" filepath="$PROJECT_DIR$/04_module/surname/surname.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/telephonebook/telephonebook.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/telephonebook/telephonebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_module/text/text.iml" filepath="$PROJECT_DIR$/04_module/text/text.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/todolist/todolist.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/todolist/todolist.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: PhysicalPersonTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in PhysicalPersonTest
+put  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <1.0> but was: <0.0>
+	at PhysicalPersonTest.put(PhysicalPersonTest.java:23)
+
+take  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <1.0> but was: <0.0>
+	at PhysicalPersonTest.take(PhysicalPersonTest.java:39)
+
+takeTooMuchMoney  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Сумма на счете не соответствует ожидаемой ==> expected: <2.0> but was: <0.0>
+	at PhysicalPersonTest.takeTooMuchMoney(PhysicalPersonTest.java:47)
+

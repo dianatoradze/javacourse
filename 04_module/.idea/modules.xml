@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/04_module.iml" filepath="$PROJECT_DIR$/.idea/04_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringExperiments/StringExperiments.iml" filepath="$PROJECT_DIR$/StringExperiments/StringExperiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendare/calendare.iml" filepath="$PROJECT_DIR$/calendare/calendare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phone/phone.iml" filepath="$PROJECT_DIR$/phone/phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surname/surname.iml" filepath="$PROJECT_DIR$/surname/surname.iml" />
+      <module fileurl="file://$PROJECT_DIR$/text/text.iml" filepath="$PROJECT_DIR$/text/text.iml" />
+    </modules>
+  </component>
+</project>

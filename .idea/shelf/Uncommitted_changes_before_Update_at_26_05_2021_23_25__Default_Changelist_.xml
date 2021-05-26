@@ -1,0 +1,79 @@
+<changelist name="Uncommitted_changes_before_Update_at_26_05_2021_23_25_[Default_Changelist]" date="1622053538758" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_05_2021_23_25_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 26.05.2021 23:25 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-cachefile" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/test-classes/IndividualBusinessmanTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/test-classes/PhysicalPersonTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/classes/Client.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/.gitkeep" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/StringExperiments/Loader.class" />
+    <option name="AFTER_PATH" value="out/production/StringExperiments/Loader.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_05_2021_23_25_[Default_Changelist]/Loader.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/classes/Main.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/classes/LegalPerson.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/test-classes/LegalPersonTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/classes/PhysicalPerson.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/classes/IndividualBusinessman.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="06_InheritanceAndPolymorphism/homework_6.3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
