@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         List<Employee> staff = Employee.loadStaffFromFile(STAFF_TXT);
         sortBySalaryAndAlphabet(staff);
-        for (Employee employee: staff) {
+        for (Employee employee : staff) {
             System.out.println(employee);
         }
 
@@ -15,25 +15,18 @@ public class Main {
 
     public static void sortBySalaryAndAlphabet(List<Employee> staff) {
         //TODO Метод должен отсортировать сотрудников по заработной плате и алфавиту.
-       // Collections.sort(staff, (o1, o2) -> o1.getSalary().compareTo(o2.getSalary()));
+        Collections.sort(staff, (o1, o2) -> {
 
-        staff.sort((o1, o2) -> {
+            if (o1.getSalary().equals(o2.getSalary())) {
 
-            sortByAlphabet(staff, o1, o2);
+                Comparator.comparing(Employee::getName);
+                return o1.getName().compareTo(o2.getName());
+            }
 
             return o1.getSalary().compareTo(o2.getSalary());
 
         });
     }
 
-    private static void sortByAlphabet(List<Employee> staff, Employee o1, Employee o2) {
-        if (o1.getSalary().equals(o2.getSalary())) {
-
-            staff.sort(Comparator.comparing(Employee::getName));
-        }
-//        else {
-//            Collections.sort(staff, Comparator.comparingInt(Employee::getSalary));
-//        }
-    }
 }
 
