@@ -12,6 +12,9 @@ public class Main {
 
     public static List<Flight> findPlanesLeavingInTheNextTwoHours(Airport airport) {
         //TODO Метод должден вернуть список рейсов вылетающих в ближайшие два часа.
+
+
+        
         return Collections.emptyList();
     }
 
