@@ -34,13 +34,9 @@ public class Main {
                 }
             }
 
-            catch (IllegalArgumentException  exception) {
+            catch (IllegalArgumentException | IOException exception) {
                 System.out.println(exception.getMessage());
             }
-            catch (IOException ex) {
-               ex.printStackTrace();
-            }
-
         }
     }
 }
