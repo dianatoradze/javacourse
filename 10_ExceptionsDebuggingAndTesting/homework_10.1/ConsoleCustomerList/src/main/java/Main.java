@@ -10,7 +10,7 @@ public class Main {
             COMMAND_EXAMPLES;
     private static final String helpText = "Command examples:\n" + COMMAND_EXAMPLES;
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
         CustomerStorage executor = new CustomerStorage();
 
@@ -24,6 +24,7 @@ public class Main {
                 } else if (tokens[0].equals("list")) {
                     executor.listCustomers();
                 } else if (tokens[0].equals("remove")) {
+
                     executor.removeCustomer(tokens[1]);
                 } else if (tokens[0].equals("count")) {
                     System.out.println("There are " + executor.getCount() + " customers");
@@ -33,8 +34,7 @@ public class Main {
                     System.out.println(COMMAND_ERROR);
                 }
             }
-
-            catch (IllegalArgumentException | IOException exception) {
+            catch (IllegalArgumentException  | IOException  | IndexOutOfBoundsException exception) {
                 System.out.println(exception.getMessage());
             }
         }

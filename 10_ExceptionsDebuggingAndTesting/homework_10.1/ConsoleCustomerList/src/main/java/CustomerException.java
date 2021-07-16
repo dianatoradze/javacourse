@@ -1,7 +1,7 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class CustomerException extends Exception{
+class CustomerException extends IllegalArgumentException {
     public CustomerException(String message) {
         super(message);
     }
@@ -14,6 +14,7 @@ class CustomerException extends Exception{
         Matcher matcher = pattern.matcher(phone);
         return matcher.matches();
     }
+
     public static boolean isEmailValid(String email) {
 
         String regexEmail = "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$";
