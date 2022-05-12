@@ -1,0 +1,1368 @@
+Index: 06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-result.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<checkstyle version=\"8.29\">\r\n<file name=\"C:\\Users\\diana\\Documents\\Java\\Программы\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\LegalPerson.java\">\r\n</file>\r\n</checkstyle>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-result.xml b/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-result.xml
+--- a/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-result.xml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-result.xml	(date 1626629572713)
+@@ -1,5 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <checkstyle version="8.29">
++<file name="C:\Users\diana\Documents\Java\Программы\java_basics\06_InheritanceAndPolymorphism\homework_6.3\src\main\java\Client.java">
++</file>
++<file name="C:\Users\diana\Documents\Java\Программы\java_basics\06_InheritanceAndPolymorphism\homework_6.3\src\main\java\IndividualBusinessman.java">
++</file>
+ <file name="C:\Users\diana\Documents\Java\Программы\java_basics\06_InheritanceAndPolymorphism\homework_6.3\src\main\java\LegalPerson.java">
++</file>
++<file name="C:\Users\diana\Documents\Java\Программы\java_basics\06_InheritanceAndPolymorphism\homework_6.3\src\main\java\Main.java">
++</file>
++<file name="C:\Users\diana\Documents\Java\Программы\java_basics\06_InheritanceAndPolymorphism\homework_6.3\src\main\java\PhysicalPerson.java">
+ </file>
+ </checkstyle>
+Index: 06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-cachefile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Mon Feb 15 09:09:54 YEKT 2021\r\nconfiguration*?=CEA439369CF6E26FE547B8D117AB0321F083B3E1\r\nC\\:\\\\Users\\\\diana\\\\Documents\\\\Java\\\\\\u041F\\u0440\\u043E\\u0433\\u0440\\u0430\\u043C\\u043C\\u044B\\\\java_basics\\\\06_InheritanceAndPolymorphism\\\\homework_6.3\\\\src\\\\main\\\\java\\\\Client.java=1613331425353\r\nC\\:\\\\Users\\\\diana\\\\Documents\\\\Java\\\\\\u041F\\u0440\\u043E\\u0433\\u0440\\u0430\\u043C\\u043C\\u044B\\\\java_basics\\\\06_InheritanceAndPolymorphism\\\\homework_6.3\\\\src\\\\main\\\\java\\\\LegalPerson.java=1613362158861\r\nC\\:\\\\Users\\\\diana\\\\Documents\\\\Java\\\\\\u041F\\u0440\\u043E\\u0433\\u0440\\u0430\\u043C\\u043C\\u044B\\\\java_basics\\\\06_InheritanceAndPolymorphism\\\\homework_6.3\\\\src\\\\main\\\\java\\\\IndividualBusinessman.java=1613331425315\r\nC\\:\\\\Users\\\\diana\\\\Documents\\\\Java\\\\\\u041F\\u0440\\u043E\\u0433\\u0440\\u0430\\u043C\\u043C\\u044B\\\\java_basics\\\\06_InheritanceAndPolymorphism\\\\homework_6.3\\\\src\\\\main\\\\java\\\\PhysicalPerson.java=1613328582918\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-cachefile b/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-cachefile
+--- a/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-cachefile	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/06_InheritanceAndPolymorphism/homework_6.3/target/checkstyle-cachefile	(date 1626629572871)
+@@ -1,6 +1,7 @@
+-#Mon Feb 15 09:09:54 YEKT 2021
++#Sun Jul 18 22:32:52 YEKT 2021
+ configuration*?=CEA439369CF6E26FE547B8D117AB0321F083B3E1
+-C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\Client.java=1613331425353
+-C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\LegalPerson.java=1613362158861
+-C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\IndividualBusinessman.java=1613331425315
+-C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\PhysicalPerson.java=1613328582918
++C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\Client.java=1622485269821
++C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\LegalPerson.java=1622485269846
++C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\IndividualBusinessman.java=1622485269841
++C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\Main.java=1622485269850
++C\:\\Users\\diana\\Documents\\Java\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\java_basics\\06_InheritanceAndPolymorphism\\homework_6.3\\src\\main\\java\\PhysicalPerson.java=1622485269854
+Index: ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/pom.xml b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/pom.xml
+new file mode 100644
+--- /dev/null	(date 1651082799719)
++++ b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/pom.xml	(date 1651082799719)
+@@ -0,0 +1,79 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>ru.skillbox</groupId>
++    <artifactId>ConsoleCustomerList</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++    <properties>
++        <maven.compiler.source>11</maven.compiler.source>
++        <maven.compiler.target>11</maven.compiler.target>
++        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
++        <checkstyle-maven-plugin.version>3.1.1</checkstyle-maven-plugin.version>
++        <junit.platform.version>5.3.2</junit.platform.version>
++        <puppycrawl.version>8.34</puppycrawl.version>
++        <checkstyle.config.remote>
++            https://raw.githubusercontent.com/skillbox-java/checkstyle/master/checkstyle_M4.xml
++        </checkstyle.config.remote>
++    </properties>
++
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-checkstyle-plugin</artifactId>
++                <version>${checkstyle-maven-plugin.version}</version>
++                <configuration>
++                    <!-- Use last available configuration -->
++                    <configLocation>checkstyle.xml</configLocation>
++                    <configLocation>${checkstyle.config.remote}</configLocation>
++                    <encoding>UTF-8</encoding>
++                    <consoleOutput>true</consoleOutput>
++                    <violationSeverity>warning</violationSeverity>
++                    <logViolationsToConsole>false</logViolationsToConsole>
++                </configuration>
++                <executions>
++                    <execution>
++                        <id>verify-style</id>
++                        <phase>validate</phase>
++                        <goals>
++                            <goal>check</goal>
++                        </goals>
++                    </execution>
++                </executions>
++            </plugin>
++            <plugin>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <version>3.8.1</version>
++            </plugin>
++            <plugin>
++                <artifactId>maven-surefire-plugin</artifactId>
++                <version>2.22.2</version>
++            </plugin>
++        </plugins>
++    </build>
++
++    <dependencies>
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter-api</artifactId>
++            <version>${junit.platform.version}</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter-engine</artifactId>
++            <version>${junit.platform.version}</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>com.puppycrawl.tools</groupId>
++            <artifactId>checkstyle</artifactId>
++            <version>${puppycrawl.version}</version>
++        </dependency>
++    </dependencies>
++</project>
+\ No newline at end of file
+Index: ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/checkstyle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/checkstyle.xml b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/checkstyle.xml
+new file mode 100644
+--- /dev/null	(date 1651082799719)
++++ b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/checkstyle.xml	(date 1651082799719)
+@@ -0,0 +1,55 @@
++<?xml version="1.0"?>
++<!DOCTYPE module PUBLIC
++        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
++        "https://checkstyle.org/dtds/configuration_1_3.dtd">
++
++<!-- commons lang customization of default Checkstyle behavior -->
++<module name="Checker">
++    <property name="severity" value="warning"/>
++    <module name="FileTabCharacter">
++        <property name="fileExtensions" value="java"/>
++    </module>
++
++    <module name="TreeWalker">
++
++        <module name="LocalVariableName">
++            <message key="name.invalidPattern"
++                     value="Неверное наименование локальной переменной - ''{0}'', имя переменной должно удовлетворять регулярному выражению - ''{1}'', пример: carsAmount"/>
++        </module>
++
++        <module name="ConstantName">
++            <message key="name.invalidPattern"
++                     value="Неверное наименование константы - ''{0}'', имя константы должно удовлетворять регулярному выражению - ''{1}'', пример: THIS_IS_CONSTANT "/>
++        </module>
++
++        <module name="MethodName">
++            <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
++            <property name="allowClassName" value="false"/>
++            <message key="name.invalidPattern"
++                     value="Неверное наименование методы - ''{0}'', имя метода должно удовлетворять регулярному выражению - ''{1}'', пример: getAmount() "/>
++        </module>
++
++        <module name="MethodLength">
++            <property name="tokens" value="METHOD_DEF"/>
++            <property name="max" value="50"/>
++            <property name="countEmpty" value="false"/>
++            <message key="maxLen.method"
++                     value="Количество строк в методе {0,number,integer} (без учета пустых строк) первышает допустимое количество в {1,number,integer} строк. Совет:разделите метод на несколько"/>
++        </module>
++
++        <module name="EmptyBlock"/>
++
++        <module name="AvoidNestedBlocks">
++            <message key="block.nested" value="Избегайте вложенных блоков. Удалите лишние '{ }'."/>
++        </module>
++
++        <module name="NeedBraces">
++            <message key="needBraces" value="тело ''{0}'' должно быть заключено в '''{}'''"/>
++        </module>
++
++        <module name="UnusedImports">
++            <message key="import.unused"
++                     value="Неиспользуемый импорт класса - {0}. Для устранение удалите лишние импорты воспользовавшись сочетаниям клавиш CTRL+ALT+O / Cmd+Option+O"/>
++        </module>
++    </module>
++</module>
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/Bank/Bank.iml\" filepath=\"$PROJECT_DIR$/06_InheritanceAndPolymorphism/Bank/Bank.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/CreditCard.iml\" filepath=\"$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/CreditCard.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml\" filepath=\"$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml\" filepath=\"$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/04_module/StringExperiments/StringExperiments.iml\" filepath=\"$PROJECT_DIR$/04_module/StringExperiments/StringExperiments.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/Task/Task.iml\" filepath=\"$PROJECT_DIR$/06_InheritanceAndPolymorphism/Task/Task.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/04_module/calendare/calendare.iml\" filepath=\"$PROJECT_DIR$/04_module/calendare/calendare.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/05_ArraysAndCollections/colors/colors.iml\" filepath=\"$PROJECT_DIR$/05_ArraysAndCollections/colors/colors.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/05_ArraysAndCollections/cross/cross.iml\" filepath=\"$PROJECT_DIR$/05_ArraysAndCollections/cross/cross.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/05_ArraysAndCollections/email/email.iml\" filepath=\"$PROJECT_DIR$/05_ArraysAndCollections/email/email.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/05_ArraysAndCollections/generator/generator.iml\" filepath=\"$PROJECT_DIR$/05_ArraysAndCollections/generator/generator.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/08_InheritanceAndPolymorphism/homework_8.4/homework_8.4.iml\" filepath=\"$PROJECT_DIR$/08_InheritanceAndPolymorphism/homework_8.4/homework_8.4.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/05_ArraysAndCollections/hospital/hospital.iml\" filepath=\"$PROJECT_DIR$/05_ArraysAndCollections/hospital/hospital.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/java_basics.iml\" filepath=\"$PROJECT_DIR$/.idea/java_basics.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/04_module/phone/phone.iml\" filepath=\"$PROJECT_DIR$/04_module/phone/phone.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/src/src.iml\" filepath=\"$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/src/src.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/04_module/surname/surname.iml\" filepath=\"$PROJECT_DIR$/04_module/surname/surname.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/05_ArraysAndCollections/telephonebook/telephonebook.iml\" filepath=\"$PROJECT_DIR$/05_ArraysAndCollections/telephonebook/telephonebook.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/04_module/text/text.iml\" filepath=\"$PROJECT_DIR$/04_module/text/text.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/05_ArraysAndCollections/todolist/todolist.iml\" filepath=\"$PROJECT_DIR$/05_ArraysAndCollections/todolist/todolist.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/.idea/modules.xml	(date 1644863996901)
+@@ -3,9 +3,12 @@
+   <component name="ProjectModuleManager">
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/Bank/Bank.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/Bank/Bank.iml" />
++      <module fileurl="file://$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.1/ConsoleCustomerList/ConsoleCustomerList.iml" filepath="$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.1/ConsoleCustomerList/ConsoleCustomerList.iml" />
+       <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/CreditCard.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/CreditCard.iml" />
+       <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml" />
+       <module fileurl="file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml" filepath="$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml" />
++      <module fileurl="file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Airport/LambdaExpressions7.2-Airport.iml" filepath="$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Airport/LambdaExpressions7.2-Airport.iml" />
++      <module fileurl="file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Employees/LambdaExpressions7.2-Employee.iml" filepath="$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Employees/LambdaExpressions7.2-Employee.iml" />
+       <module fileurl="file://$PROJECT_DIR$/04_module/StringExperiments/StringExperiments.iml" filepath="$PROJECT_DIR$/04_module/StringExperiments/StringExperiments.iml" />
+       <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/Task/Task.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/Task/Task.iml" />
+       <module fileurl="file://$PROJECT_DIR$/04_module/calendare/calendare.iml" filepath="$PROJECT_DIR$/04_module/calendare/calendare.iml" />
+@@ -17,9 +20,12 @@
+       <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/hospital/hospital.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/hospital/hospital.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics.iml" filepath="$PROJECT_DIR$/.idea/java_basics.iml" />
+       <module fileurl="file://$PROJECT_DIR$/04_module/phone/phone.iml" filepath="$PROJECT_DIR$/04_module/phone/phone.iml" />
++      <module fileurl="file://$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.2/SPBMetro/spb-metro.iml" filepath="$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.2/SPBMetro/spb-metro.iml" />
++      <module fileurl="file://$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2/SPBMetro/spb-metro (1).iml" filepath="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2/SPBMetro/spb-metro (1).iml" />
+       <module fileurl="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/src/src.iml" filepath="$PROJECT_DIR$/06_InheritanceAndPolymorphism/CreditCard/src/src.iml" />
+       <module fileurl="file://$PROJECT_DIR$/04_module/surname/surname.iml" filepath="$PROJECT_DIR$/04_module/surname/surname.iml" />
+       <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/telephonebook/telephonebook.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/telephonebook/telephonebook.iml" />
++      <module fileurl="file://$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.2/SPBMetro/src/test/test.iml" filepath="$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.2/SPBMetro/src/test/test.iml" />
+       <module fileurl="file://$PROJECT_DIR$/04_module/text/text.iml" filepath="$PROJECT_DIR$/04_module/text/text.iml" />
+       <module fileurl="file://$PROJECT_DIR$/05_ArraysAndCollections/todolist/todolist.iml" filepath="$PROJECT_DIR$/05_ArraysAndCollections/todolist/todolist.iml" />
+     </modules>
+Index: ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/StationIndex.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/StationIndex.java b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/StationIndex.java
+new file mode 100644
+--- /dev/null	(date 1651082799782)
++++ b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/StationIndex.java	(date 1651082799782)
+@@ -0,0 +1,60 @@
++import core.Line;
++import core.Station;
++
++import java.util.*;
++import java.util.stream.Collectors;
++
++public class StationIndex {
++    private final Map<Integer, Line> number2line;
++    private final TreeSet<Station> stations;
++    private final Map<Station, TreeSet<Station>> connections;
++
++    public StationIndex() {
++        number2line = new HashMap<>();
++        stations = new TreeSet<>();
++        connections = new TreeMap<>();
++    }
++
++    public void addStation(Station station) {
++        stations.add(station);
++    }
++
++    public void addLine(Line line) {
++        number2line.put(line.getNumber(), line);
++    }
++
++    public void addConnection(List<Station> stations) {
++        for (Station station : stations) {
++            if (!connections.containsKey(station)) {
++                connections.put(station, new TreeSet<>());
++            }
++            TreeSet<Station> connectedStations = connections.get(station);
++            connectedStations.addAll(stations.stream()
++                    .filter(s -> !s.equals(station)).collect(Collectors.toList()));
++        }
++    }
++
++    public Line getLine(int number) {
++        return number2line.get(number);
++    }
++
++    public Station getStation(String name) {
++        for (Station station : stations) {
++            if (station.getName().equalsIgnoreCase(name)) {
++                return station;
++            }
++        }
++        return null;
++    }
++
++    public Station getStation(String name, int lineNumber) {
++        Station query = new Station(name, getLine(lineNumber));
++        Station station = stations.ceiling(query);
++        return station.equals(query) ? station : null;
++    }
++
++    public Set<Station> getConnectedStations(Station station) {
++        return connections.containsKey(station) ?
++                connections.get(station) : new TreeSet<>();
++    }
++}
+Index: ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/resources/map.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/resources/map.json b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/resources/map.json
+new file mode 100644
+--- /dev/null	(date 1651082799813)
++++ b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/resources/map.json	(date 1651082799813)
+@@ -0,0 +1,176 @@
++{
++  "stations": {
++    "1": [
++      "Девяткино",
++      "Гражданский проспект",
++      "Академическая",
++      "Политехническая",
++      "Площадь Мужества",
++      "Лесная",
++      "Выборгская",
++      "Площадь Ленина",
++      "Чернышевская",
++      "Площадь Восстания",
++      "Владимирская",
++      "Пушкинская",
++      "Технологический институт",
++      "Балтийская",
++      "Нарвская",
++      "Кировский завод",
++      "Автово",
++      "Ленинский проспект",
++      "Проспект Ветеранов"
++    ],
++    "2": [
++      "Парнас",
++      "Проспект Просвещения",
++      "Озерки",
++      "Удельная",
++      "Пионерская",
++      "Чёрная речка",
++      "Петроградская",
++      "Горьковская",
++      "Невский проспект",
++      "Сенная площадь",
++      "Технологический институт",
++      "Фрунзенская",
++      "Московские ворота",
++      "Электросила",
++      "Парк Победы",
++      "Московская",
++      "Звёздная",
++      "Купчино"
++    ],
++    "3": [
++      "Беговая",
++      "Новокрестовская",
++      "Приморская",
++      "Василеостровская",
++      "Гостиный двор",
++      "Маяковская",
++      "Площадь Александра Невского",
++      "Елизаровская",
++      "Ломоносовская",
++      "Пролетарская",
++      "Обухово",
++      "Рыбацкое"
++    ],
++    "4": [
++      "Спасская",
++      "Достоевская",
++      "Лиговский проспект",
++      "Площадь Александра Невского",
++      "Новочеркасская",
++      "Ладожская",
++      "Проспект Большевиков",
++      "Улица Дыбенко"
++    ],
++    "5": [
++      "Комендантский проспект",
++      "Старая Деревня",
++      "Крестовский остров",
++      "Чкаловская",
++      "Спортивная",
++      "Адмиралтейская",
++      "Садовая",
++      "Звенигородская",
++      "Обводный канал",
++      "Волковская",
++      "Бухарестская",
++      "Международная"
++    ]
++  },
++  "connections": [
++    [
++      {
++        "line": 2,
++        "station": "Невский проспект"
++      },
++      {
++        "line": 3,
++        "station": "Гостиный двор"
++      }
++    ],
++    [
++      {
++        "line": 1,
++        "station": "Площадь Восстания"
++      },
++      {
++        "line": 3,
++        "station": "Маяковская"
++      }
++    ],
++    [
++      {
++        "line": 2,
++        "station": "Сенная Площадь"
++      },
++      {
++        "line": 4,
++        "station": "Спасская"
++      },
++      {
++        "line": 5,
++        "station": "Садовая"
++      }
++    ],
++    [
++      {
++        "line": 1,
++        "station": "Владимирская"
++      },
++      {
++        "line": 4,
++        "station": "Достоевская"
++      }
++    ],
++    [
++      {
++        "line": 1,
++        "station": "Пушкинская"
++      },
++      {
++        "line": 5,
++        "station": "Звенигородская"
++      }
++    ],
++    [
++      {
++        "line": 3,
++        "station": "Площадь Александра Невского"
++      },
++      {
++        "line": 4,
++        "station": "Площадь Александра Невского"
++      }
++    ]
++  ],
++  "lines": [
++    {
++      "number": 1,
++      "name": "Кировско-Выборгская",
++      "color": "red"
++    },
++    {
++      "number": 2,
++      "name": "Московско-Петроградская",
++      "color": "blue"
++    },
++    {
++      "number": 3,
++      "name": "Невско-Василеостровская",
++      "color": "green"
++    },
++    {
++      "number": 4,
++      "name": "Правобережная",
++      "color": "orange"
++    },
++    {
++      "number": 5,
++      "name": "Фрунзенско-Приморская",
++      "color": "violet"
++    }
++  ]
++}
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" project-jdk-name=\"11.0.5\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/.idea/misc.xml	(date 1644863996981)
+@@ -5,6 +5,11 @@
+       <list>
+         <option value="$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/pom.xml" />
+         <option value="$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/pom.xml" />
++        <option value="$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Airport/pom.xml" />
++        <option value="$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Employees/pom.xml" />
++        <option value="$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.1/ConsoleCustomerList/pom.xml" />
++        <option value="$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.2/SPBMetro/pom.xml" />
++        <option value="$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2/SPBMetro/pom.xml" />
+       </list>
+     </option>
+   </component>
+Index: 09_AdvancedOOPFeatures/homework_9.2/Airport/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import com.skillbox.airport.Aircraft;\r\nimport com.skillbox.airport.Airport;\r\nimport com.skillbox.airport.Flight;\r\nimport com.skillbox.airport.Terminal;\r\n\r\nimport java.text.SimpleDateFormat;\r\nimport java.util.*;\r\nimport java.util.stream.Collectors;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(findPlanesLeavingInTheNextTwoHours(Airport.getInstance()));\r\n\r\n    }\r\n\r\n    public static List<Flight> findPlanesLeavingInTheNextTwoHours(Airport airport) {\r\n        //TODO Метод должден вернуть список рейсов вылетающих в ближайшие два часа.\r\n\r\n        Calendar calendar = Calendar.getInstance();\r\n        Date time = calendar.getTime();\r\n\r\n        calendar.roll(Calendar.HOUR_OF_DAY, 2);\r\n        Date hours = calendar.getTime();\r\n\r\n        return airport.getTerminals()\r\n                .stream()\r\n                .map(Terminal::getFlights)\r\n                .flatMap(Collection::stream)\r\n                .filter(flight -> flight.getType().equals(Flight.Type.DEPARTURE))\r\n                .filter(e -> e.getDate().before(hours) && e.getDate().after(time))\r\n                .collect(Collectors.toList());\r\n\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/09_AdvancedOOPFeatures/homework_9.2/Airport/src/main/java/Main.java b/09_AdvancedOOPFeatures/homework_9.2/Airport/src/main/java/Main.java
+--- a/09_AdvancedOOPFeatures/homework_9.2/Airport/src/main/java/Main.java	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/09_AdvancedOOPFeatures/homework_9.2/Airport/src/main/java/Main.java	(date 1631442663328)
+@@ -3,7 +3,6 @@
+ import com.skillbox.airport.Flight;
+ import com.skillbox.airport.Terminal;
+ 
+-import java.text.SimpleDateFormat;
+ import java.util.*;
+ import java.util.stream.Collectors;
+ 
+Index: ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Line.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Line.java b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Line.java
+new file mode 100644
+--- /dev/null	(date 1651082799797)
++++ b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Line.java	(date 1651082799797)
+@@ -0,0 +1,50 @@
++package core;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class Line implements Comparable<Line>
++{
++    private int number;
++    private String name;
++    private List<Station> stations;
++
++    public Line(int number, String name)
++    {
++        this.number = number;
++        this.name = name;
++        stations = new ArrayList<>();
++    }
++
++    public int getNumber()
++    {
++        return number;
++    }
++
++    public String getName()
++    {
++        return name;
++    }
++
++    public void addStation(Station station)
++    {
++        stations.add(station);
++    }
++
++    public List<Station> getStations()
++    {
++        return stations;
++    }
++
++    @Override
++    public int compareTo(Line line)
++    {
++        return Integer.compare(number, line.getNumber());
++    }
++
++    @Override
++    public boolean equals(Object obj)
++    {
++        return compareTo((Line) obj) == 0;
++    }
++}
+\ No newline at end of file
+Index: 09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-api:5.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.opentest4j:opentest4j:1.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-commons:1.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-engine:5.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-engine:1.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.puppycrawl.tools:checkstyle:8.34\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: info.picocli:picocli:4.3.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: antlr:antlr:2.7.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.antlr:antlr4-runtime:4.8-1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-beanutils:commons-beanutils:1.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-logging:commons-logging:1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-collections:commons-collections:3.2.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:guava:29.0-jre\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:failureaccess:1.0.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.code.findbugs:jsr305:3.0.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.checkerframework:checker-qual:2.11.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.errorprone:error_prone_annotations:2.3.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.j2objc:j2objc-annotations:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.sf.saxon:Saxon-HE:9.9.1-7\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml b/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml
+--- a/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/09_AdvancedOOPFeatures/homework_9.1/LambdaExpressions7.1.iml	(date 1639588284339)
+@@ -10,26 +10,5 @@
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.6.2" level="project" />
+-    <orderEntry type="library" name="Maven: com.puppycrawl.tools:checkstyle:8.34" level="project" />
+-    <orderEntry type="library" name="Maven: info.picocli:picocli:4.3.2" level="project" />
+-    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+-    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.8-1" level="project" />
+-    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.4" level="project" />
+-    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+-    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.guava:guava:29.0-jre" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+-    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:2.11.1" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+-    <orderEntry type="library" name="Maven: net.sf.saxon:Saxon-HE:9.9.1-7" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Station.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Station.java b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Station.java
+new file mode 100644
+--- /dev/null	(date 1651082799797)
++++ b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/core/Station.java	(date 1651082799797)
+@@ -0,0 +1,45 @@
++package core;
++
++public class Station implements Comparable<Station>
++{
++    private Line line;
++    private String name;
++
++    public Station(String name, Line line)
++    {
++        this.name = name;
++        this.line = line;
++    }
++
++    public Line getLine()
++    {
++        return line;
++    }
++
++    public String getName()
++    {
++        return name;
++    }
++
++    @Override
++    public int compareTo(Station station)
++    {
++        int lineComparison = line.compareTo(station.getLine());
++        if(lineComparison != 0) {
++            return lineComparison;
++        }
++        return name.compareToIgnoreCase(station.getName());
++    }
++
++    @Override
++    public boolean equals(Object obj)
++    {
++        return compareTo((Station) obj) == 0;
++    }
++
++    @Override
++    public String toString()
++    {
++        return name;
++    }
++}
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/.idea/encodings.xml	(date 1644863997085)
+@@ -1,6 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/06_InheritanceAndPolymorphism/homework_6.3/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.1/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Airport/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/09_AdvancedOOPFeatures/homework_9.2/Employees/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.1/ConsoleCustomerList/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.2/SPBMetro/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/10_ExceptionsDebuggingAndTesting/homework_10.2/SPBMetro/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2/SPBMetro/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/12_ExceptionsDebuggingAndTesting/homework_12.2/SPBMetro/src/main/resources" charset="UTF-8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/test/java/ExceptionTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/test/java/ExceptionTests.java b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/test/java/ExceptionTests.java
+new file mode 100644
+--- /dev/null	(date 1651082799750)
++++ b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/test/java/ExceptionTests.java	(date 1651082799750)
+@@ -0,0 +1,71 @@
++import org.junit.jupiter.api.BeforeEach;
++import org.junit.jupiter.api.DisplayName;
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.assertEquals;
++import static org.junit.jupiter.api.Assertions.assertThrows;
++
++@DisplayName("Проверка выброса исключений")
++public class ExceptionTests {
++
++    private CustomerStorage storage;
++
++    @BeforeEach
++    void beforeEach() {
++        storage = new CustomerStorage();
++    }
++
++    @Test
++    @DisplayName("Передано более 4 слов в строке")
++    void moreThenFourElementsInputString() {
++        final String input = "Василий Петров vasily.petrov@gmail.com +79215637722 5слово";
++
++        assertThrows(Throwable.class, () -> storage.addCustomer(input),
++                "Не выброшено исключение при количестве элементов в строке больше 4");
++    }
++
++    @Test
++    @DisplayName("Передано менее 4 слов в строке")
++    void lessThanFourElementsInputString() {
++        final String input = "Василий Петров vasily.petrov@gmail.com";
++        assertThrows(Throwable.class, () -> storage.addCustomer(input),
++                "Не выброшено исключение при количестве элементов в строке меньше 4");
++    }
++
++    @Test
++    @DisplayName("Неверный формат email")
++    void wrongEmailFormatWithoutAt() {
++        final String wrongEmail = "thisIsNotAnEmail";
++        final String input = "Василий Петров " + wrongEmail + " +79215637722";
++
++        assertThrows(Throwable.class, () -> storage.addCustomer(input),
++                "Не выброшено исключение при неверном формате email -> " + wrongEmail);
++    }
++
++    @Test
++    @DisplayName("Неверный формат номера")
++    void wrongPhoneFormatWithoutDigits() {
++        final String wrongPhoneNumber = "+thisIsNotANumber";
++        final String input = "Василий Петров hello@skillbox.ru " + wrongPhoneNumber;
++
++        assertThrows(Throwable.class, () -> storage.addCustomer(input),
++                "Не выброшено исключение при неверном формате номера -> " + wrongPhoneNumber);
++    }
++
++    @Test
++    @DisplayName("Тест добавления корректных данных Customer")
++    void insertCorrectData() {
++        final String name = "Василий Петров";
++        final String email = "hello@skillbox.ru";
++        final String phone = "+79991234567";
++        final String input = String.join(" ", name, email, phone);
++
++        storage.addCustomer(input);
++        assertEquals(1, storage.getCount());
++
++        Customer customer = storage.getCustomer(name);
++        assertEquals(name, customer.getName());
++        assertEquals(email, customer.getEmail());
++        assertEquals(phone, customer.getPhone());
++    }
++}
+Index: ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/Main.java b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/Main.java
+new file mode 100644
+--- /dev/null	(date 1651082799782)
++++ b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/Main.java	(date 1651082799782)
+@@ -0,0 +1,147 @@
++import core.Line;
++import core.Station;
++import org.json.simple.JSONArray;
++import org.json.simple.JSONObject;
++import org.json.simple.parser.JSONParser;
++
++import java.nio.file.Files;
++import java.nio.file.Paths;
++import java.util.ArrayList;
++import java.util.List;
++import java.util.Scanner;
++
++public class Main {
++    private static final String DATA_FILE = "src/main/resources/map.json";
++    private static Scanner scanner;
++
++    private static StationIndex stationIndex;
++
++    public static void main(String[] args) {
++        RouteCalculator calculator = getRouteCalculator();
++
++        System.out.println("Программа расчёта маршрутов метрополитена Санкт-Петербурга\n");
++        scanner = new Scanner(System.in);
++        for (; ; ) {
++            Station from = takeStation("Введите станцию отправления:");
++            Station to = takeStation("Введите станцию назначения:");
++
++            List<Station> route = calculator.getShortestRoute(from, to);
++            System.out.println("Маршрут:");
++            printRoute(route);
++
++            System.out.println("Длительность: " +
++                    RouteCalculator.calculateDuration(route) + " минут");
++        }
++    }
++
++    private static RouteCalculator getRouteCalculator() {
++        createStationIndex();
++        return new RouteCalculator(stationIndex);
++    }
++
++    private static void printRoute(List<Station> route) {
++        Station previousStation = null;
++        for (Station station : route) {
++            if (previousStation != null) {
++                Line prevLine = previousStation.getLine();
++                Line nextLine = station.getLine();
++                if (!prevLine.equals(nextLine)) {
++                    System.out.println("\tПереход на станцию " +
++                            station.getName() + " (" + nextLine.getName() + " линия)");
++                }
++            }
++            System.out.println("\t" + station.getName());
++            previousStation = station;
++        }
++    }
++
++    private static Station takeStation(String message) {
++        for (; ; ) {
++            System.out.println(message);
++            String line = scanner.nextLine().trim();
++            Station station = stationIndex.getStation(line);
++            if (station != null) {
++                return station;
++            }
++            System.out.println("Станция не найдена :(");
++        }
++    }
++
++    private static void createStationIndex() {
++        stationIndex = new StationIndex();
++        try {
++            JSONParser parser = new JSONParser();
++            JSONObject jsonData = (JSONObject) parser.parse(getJsonFile());
++
++            JSONArray linesArray = (JSONArray) jsonData.get("lines");
++            parseLines(linesArray);
++
++            JSONObject stationsObject = (JSONObject) jsonData.get("stations");
++            parseStations(stationsObject);
++
++            JSONArray connectionsArray = (JSONArray) jsonData.get("connections");
++            parseConnections(connectionsArray);
++        } catch (Exception ex) {
++            ex.printStackTrace();
++        }
++    }
++
++    private static void parseConnections(JSONArray connectionsArray) {
++        connectionsArray.forEach(connectionObject ->
++        {
++            JSONArray connection = (JSONArray) connectionObject;
++            List<Station> connectionStations = new ArrayList<>();
++            connection.forEach(item ->
++            {
++                JSONObject itemObject = (JSONObject) item;
++                int lineNumber = ((Long) itemObject.get("line")).intValue();
++                String stationName = (String) itemObject.get("station");
++
++                Station station = stationIndex.getStation(stationName, lineNumber);
++                if (station == null) {
++                    throw new IllegalArgumentException("core.Station " +
++                            stationName + " on line " + lineNumber + " not found");
++                }
++                connectionStations.add(station);
++            });
++            stationIndex.addConnection(connectionStations);
++        });
++    }
++
++    private static void parseStations(JSONObject stationsObject) {
++        stationsObject.keySet().forEach(lineNumberObject ->
++        {
++            int lineNumber = Integer.parseInt((String) lineNumberObject);
++            Line line = stationIndex.getLine(lineNumber);
++            JSONArray stationsArray = (JSONArray) stationsObject.get(lineNumberObject);
++            stationsArray.forEach(stationObject ->
++            {
++                Station station = new Station((String) stationObject, line);
++                stationIndex.addStation(station);
++                line.addStation(station);
++            });
++        });
++    }
++
++    private static void parseLines(JSONArray linesArray) {
++        linesArray.forEach(lineObject -> {
++            JSONObject lineJsonObject = (JSONObject) lineObject;
++            Line line = new Line(
++                    ((Long) lineJsonObject.get("number")).intValue(),
++                    (String) lineJsonObject.get("name")
++            );
++            stationIndex.addLine(line);
++        });
++    }
++
++    private static String getJsonFile() {
++        StringBuilder builder = new StringBuilder();
++        try {
++            List<String> lines = Files.readAllLines(Paths.get(DATA_FILE));
++            lines.forEach(line -> builder.append(line));
++        } catch (Exception ex) {
++            ex.printStackTrace();
++        }
++        return builder.toString();
++    }
++}
+\ No newline at end of file
+Index: ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/RouteCalculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/RouteCalculator.java b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/RouteCalculator.java
+new file mode 100644
+--- /dev/null	(date 1651082799782)
++++ b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/src/main/java/RouteCalculator.java	(date 1651082799782)
+@@ -0,0 +1,151 @@
++import core.Station;
++
++import java.util.ArrayList;
++import java.util.Collections;
++import java.util.List;
++import java.util.Set;
++
++public class RouteCalculator {
++    private final StationIndex stationIndex;
++
++    private static final double INTER_STATION_DURATION = 2.5;
++    private static final double INTER_CONNECTION_DURATION = 3.5;
++
++    public RouteCalculator(StationIndex stationIndex) {
++        this.stationIndex = stationIndex;
++    }
++
++    public List<Station> getShortestRoute(Station from, Station to) {
++        List<Station> route = getRouteOnTheLine(from, to);
++        if (route != null) {
++            return route;
++        }
++
++        route = getRouteWithOneConnection(from, to);
++        if (route != null) {
++            return route;
++        }
++
++        route = getRouteWithTwoConnections(from, to);
++        return route;
++    }
++
++    public static double calculateDuration(List<Station> route) {
++        double duration = 0;
++        Station previousStation = null;
++        for (int i = 0; i < route.size(); i++) {
++            Station station = route.get(i);
++            if (i > 0) {
++                duration += previousStation.getLine().equals(station.getLine()) ?
++                        INTER_STATION_DURATION : INTER_CONNECTION_DURATION;
++            }
++            previousStation = station;
++        }
++        return duration;
++    }
++
++    private List<Station> getRouteOnTheLine(Station from, Station to) {
++        if (!from.getLine().equals(to.getLine())) {
++            return null;
++        }
++        List<Station> route = new ArrayList<>();
++        List<Station> stations = from.getLine().getStations();
++        int direction = 0;
++        for (Station station : stations) {
++            if (direction == 0) {
++                if (station.equals(from)) {
++                    direction = 1;
++                } else if (station.equals(to)) {
++                    direction = -1;
++                }
++            }
++
++            if (direction != 0) {
++                route.add(station);
++            }
++
++            if ((direction == 1 && station.equals(to)) ||
++                    (direction == -1 && station.equals(from))) {
++                break;
++            }
++        }
++        if (direction == -1) {
++            Collections.reverse(route);
++        }
++        return route;
++    }
++
++    private List<Station> getRouteWithOneConnection(Station from, Station to) {
++        if (from.getLine().equals(to.getLine())) {
++            return null;
++        }
++
++        List<Station> route = new ArrayList<>();
++
++        List<Station> fromLineStations = from.getLine().getStations();
++        List<Station> toLineStations = to.getLine().getStations();
++        for (Station srcStation : fromLineStations) {
++            for (Station dstStation : toLineStations) {
++                if (isConnected(srcStation, dstStation)) {
++                    ArrayList<Station> way = new ArrayList<>();
++                    way.addAll(getRouteOnTheLine(from, srcStation));
++                    way.addAll(getRouteOnTheLine(dstStation, to));
++                    if (route.isEmpty() || route.size() > way.size()) {
++                        route.clear();
++                        route.addAll(way);
++                    }
++                }
++            }
++        }
++        return route;
++    }
++
++    private boolean isConnected(Station station1, Station station2) {
++        Set<Station> connected = stationIndex.getConnectedStations(station1);
++        return connected.contains(station2);
++    }
++
++    private List<Station> getRouteViaConnectedLine(Station from, Station to) {
++        Set<Station> fromConnected = stationIndex.getConnectedStations(from);
++        Set<Station> toConnected = stationIndex.getConnectedStations(to);
++        for (Station srcStation : fromConnected) {
++            for (Station dstStation : toConnected) {
++                if (srcStation.getLine().equals(dstStation.getLine())) {
++                    return getRouteOnTheLine(srcStation, dstStation);
++                }
++            }
++        }
++        return null;
++    }
++
++    private List<Station> getRouteWithTwoConnections(Station from, Station to) {
++        if (from.getLine().equals(to.getLine())) {
++            return null;
++        }
++
++        ArrayList<Station> route = new ArrayList<>();
++
++        List<Station> fromLineStations = from.getLine().getStations();
++        List<Station> toLineStations = to.getLine().getStations();
++
++        for (Station srcStation : fromLineStations) {
++            for (Station dstStation : toLineStations) {
++                List<Station> connectedLineRoute =
++                        getRouteViaConnectedLine(srcStation, dstStation);
++                if (connectedLineRoute == null) {
++                    continue;
++                }
++                List<Station> way = new ArrayList<>();
++                way.addAll(getRouteOnTheLine(from, srcStation));
++                way.addAll(connectedLineRoute);
++                way.addAll(getRouteOnTheLine(dstStation, to));
++                if (route.isEmpty() || route.size() > way.size()) {
++                    route.clear();
++                    route.addAll(way);
++                }
++            }
++        }
++
++        return route;
++    }
++}
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"Inheritance3\" />\r\n        <module name=\"LambdaExpressions7.1\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"Inheritance3\" target=\"11\" />\r\n      <module name=\"LambdaExpressions7.1\" target=\"11\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"telephonebook\" options=\"--add-exports jdk.compiler/com.sun.tools.doclint=ALL-UNNAMED\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/.idea/compiler.xml	(date 1644863997045)
+@@ -6,13 +6,23 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
++        <module name="LambdaExpressions7.2-Employee" />
++        <module name="ConsoleCustomerList" />
+         <module name="Inheritance3" />
++        <module name="spb-metro (1)" />
++        <module name="spb-metro" />
++        <module name="LambdaExpressions7.2-Airport" />
+         <module name="LambdaExpressions7.1" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>
++      <module name="ConsoleCustomerList" target="11" />
+       <module name="Inheritance3" target="11" />
+       <module name="LambdaExpressions7.1" target="11" />
++      <module name="LambdaExpressions7.2-Airport" target="11" />
++      <module name="LambdaExpressions7.2-Employee" target="11" />
++      <module name="spb-metro" target="8" />
++      <module name="spb-metro (1)" target="11" />
+     </bytecodeTargetLevel>
+   </component>
+   <component name="JavacSettings">
+Index: ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Customer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Customer.java b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Customer.java
+new file mode 100644
+--- /dev/null	(date 1651082799735)
++++ b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Customer.java	(date 1651082799735)
+@@ -0,0 +1,27 @@
++public class Customer {
++    private final String name;
++    private final String phone;
++    private final String email;
++
++    public String getName() {
++        return name;
++    }
++
++    public String getPhone() {
++        return phone;
++    }
++
++    public String getEmail() {
++        return email;
++    }
++
++    public Customer(String name, String phone, String email) {
++        this.name = name;
++        this.phone = phone;
++        this.email = email;
++    }
++
++    public String toString() {
++        return name + " - " + email + " - " + phone;
++    }
++}
+Index: 06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-api:5.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.opentest4j:opentest4j:1.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-commons:1.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-engine:5.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-engine:1.6.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.puppycrawl.tools:checkstyle:8.34\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: info.picocli:picocli:4.3.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: antlr:antlr:2.7.7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.antlr:antlr4-runtime:4.8-1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-beanutils:commons-beanutils:1.9.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-logging:commons-logging:1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-collections:commons-collections:3.2.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:guava:29.0-jre\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:failureaccess:1.0.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.code.findbugs:jsr305:3.0.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.checkerframework:checker-qual:2.11.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.errorprone:error_prone_annotations:2.3.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.j2objc:j2objc-annotations:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.sf.saxon:Saxon-HE:9.9.1-7\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.jetbrains:annotations:20.1.0\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml b/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml
+--- a/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/06_InheritanceAndPolymorphism/homework_6.3/Inheritance3.iml	(date 1639588284798)
+@@ -31,6 +31,6 @@
+     <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
+     <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+     <orderEntry type="library" name="Maven: net.sf.saxon:Saxon-HE:9.9.1-7" level="project" />
+-    <orderEntry type="library" name="Maven: org.jetbrains:annotations:20.1.0" level="project" />
++    <orderEntry type="library" name="Maven: org.jetbrains:annotations:23.0.0" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/CustomerStorage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/CustomerStorage.java b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/CustomerStorage.java
+new file mode 100644
+--- /dev/null	(date 1651082799735)
++++ b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/CustomerStorage.java	(date 1651082799735)
+@@ -0,0 +1,37 @@
++import java.util.HashMap;
++import java.util.Map;
++
++public class CustomerStorage {
++    private final Map<String, Customer> storage;
++
++    public CustomerStorage() {
++        storage = new HashMap<>();
++    }
++
++    public void addCustomer(String data) {
++        final int INDEX_NAME = 0;
++        final int INDEX_SURNAME = 1;
++        final int INDEX_EMAIL = 2;
++        final int INDEX_PHONE = 3;
++
++        String[] components = data.split("\\s+");
++        String name = components[INDEX_NAME] + " " + components[INDEX_SURNAME];
++        storage.put(name, new Customer(name, components[INDEX_PHONE], components[INDEX_EMAIL]));
++    }
++
++    public void listCustomers() {
++        storage.values().forEach(System.out::println);
++    }
++
++    public void removeCustomer(String name) {
++        storage.remove(name);
++    }
++
++    public Customer getCustomer(String name) {
++        return storage.get(name);
++    }
++
++    public int getCount() {
++        return storage.size();
++    }
++}
+\ No newline at end of file
+Index: ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Main.java b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Main.java
+new file mode 100644
+--- /dev/null	(date 1651082799750)
++++ b/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/java/Main.java	(date 1651082799750)
+@@ -0,0 +1,35 @@
++import java.util.Scanner;
++
++public class Main {
++    private static final String ADD_COMMAND = "add Василий Петров " +
++            "vasily.petrov@gmail.com +79215637722";
++    private static final String COMMAND_EXAMPLES = "\t" + ADD_COMMAND + "\n" +
++            "\tlist\n\tcount\n\tremove Василий Петров";
++    private static final String COMMAND_ERROR = "Wrong command! Available command examples: \n" +
++            COMMAND_EXAMPLES;
++    private static final String helpText = "Command examples:\n" + COMMAND_EXAMPLES;
++
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        CustomerStorage executor = new CustomerStorage();
++
++        while (true) {
++            String command = scanner.nextLine();
++            String[] tokens = command.split("\\s+", 2);
++
++            if (tokens[0].equals("add")) {
++                executor.addCustomer(tokens[1]);
++            } else if (tokens[0].equals("list")) {
++                executor.listCustomers();
++            } else if (tokens[0].equals("remove")) {
++                executor.removeCustomer(tokens[1]);
++            } else if (tokens[0].equals("count")) {
++                System.out.println("There are " + executor.getCount() + " customers");
++            } else if (tokens[0].equals("help")) {
++                System.out.println(helpText);
++            } else {
++                System.out.println(COMMAND_ERROR);
++            }
++        }
++    }
++}
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"InspectionProjectProfileManager\">\r\n  <profile version=\"1.0\">\r\n    <option name=\"myName\" value=\"Project Default\" />\r\n    <inspection_tool class=\"IfStatementWithTooManyBranches\" enabled=\"true\" level=\"WARNING\" enabled_by_default=\"true\">\r\n      <option name=\"m_limit\" value=\"3\" />\r\n    </inspection_tool>\r\n  </profile>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+--- a/.idea/inspectionProfiles/Project_Default.xml	(revision afbef6586310de4d0c9d546aedfd8b502357347f)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1628533549148)
+@@ -4,5 +4,6 @@
+     <inspection_tool class="IfStatementWithTooManyBranches" enabled="true" level="WARNING" enabled_by_default="true">
+       <option name="m_limit" value="3" />
+     </inspection_tool>
++    <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+   </profile>
+ </component>
+\ No newline at end of file
+Index: ExceptionsDebuggingAndTesting/homework_2/SPBMetro/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/pom.xml b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/pom.xml
+new file mode 100644
+--- /dev/null	(date 1651082799766)
++++ b/ExceptionsDebuggingAndTesting/homework_2/SPBMetro/pom.xml	(date 1651082799766)
+@@ -0,0 +1,39 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++
++  <groupId>spb-metro</groupId>
++  <artifactId>spb-metro</artifactId>
++  <version>1.0-SNAPSHOT</version>
++
++  <properties>
++    <maven.compiler.source>11</maven.compiler.source>
++    <maven.compiler.target>11</maven.compiler.target>
++    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
++  </properties>
++  <build>
++    <plugins>
++      <plugin>
++        <artifactId>maven-compiler-plugin</artifactId>
++        <version>3.8.1</version>
++      </plugin>
++    </plugins>
++  </build>
++
++  <dependencies>
++    <dependency>
++      <groupId>com.googlecode.json-simple</groupId>
++      <artifactId>json-simple</artifactId>
++      <version>1.1.1</version>
++    </dependency>
++    <dependency>
++      <groupId>junit</groupId>
++      <artifactId>junit</artifactId>
++      <version>4.12</version>
++    </dependency>
++  </dependencies>
++
++</project>
+\ No newline at end of file

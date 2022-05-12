@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="folder-size" />
         <module name="Inheritance3" />
         <module name="spb-metro (1)" />
         <module name="spb-metro" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="folder-size" target="11" />
       <module name="Inheritance3" target="11" />
       <module name="LambdaExpressions7.1" target="11" />
       <module name="spb-metro" target="11" />
