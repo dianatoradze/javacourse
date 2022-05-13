@@ -7,6 +7,7 @@ public class Main {
     private static final long MEGABYTE = 1048576;
     private static final long KILOBYTE = 1024;
     private static InputStreamReader path;
+
     public static void main(String[] args) {
         // C:\Users\diana\Documents
 
@@ -20,6 +21,7 @@ public class Main {
 
                     if (file.exists()) {
                         FileUtils.calculateFolderSize(String.valueOf(file));
+
                     } else {
                         System.out.println("Файл отсутствует");
                         continue;

@@ -1,27 +1,24 @@
 import java.io.File;
-import java.util.Objects;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class FileUtils {
-    private static long sizeFiles;
+    private static long sizeFolder;
 
-    public static long calculateFolderSize(String path) {
+    public static long calculateFolderSize(String path)  {
 
-//        try {
-//            List<String> files = Files.readAllLines(Paths.get(path));
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-        File file = new File(path);
-        if (file.isDirectory()) {
-            for (File file1 : Objects.requireNonNull(file.listFiles())) {
-                String s = String.valueOf(file1);
-                calculateFolderSize(s);
-            }
-        } else {
-            sizeFiles += file.length();
+        Path folder = Paths.get(path);
+        try {
+            sizeFolder = Files.walk(folder)
+                    .map(Path::toFile)
+                    .filter(File::isFile)
+                    .mapToLong(File::length)
+                    .sum();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
-        return sizeFiles;
+        return sizeFolder;
     }
-
 }
