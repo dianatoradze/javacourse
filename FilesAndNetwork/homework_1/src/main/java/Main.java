@@ -11,43 +11,46 @@ public class Main {
     public static void main(String[] args) {
         // C:\Users\diana\Documents
 
-            path = new InputStreamReader(System.in);
-            BufferedReader reader = new BufferedReader(path);
+        path = new InputStreamReader(System.in);
 
-            for (; ; ) {
-                try {
-                    System.out.println("Введите путь до папки:");
-                    File file = new File(reader.readLine());
+        BufferedReader reader = new BufferedReader(path);
 
-                    if (file.exists()) {
-                        FileUtils.calculateFolderSize(String.valueOf(file));
+        for (; ; ) {
+            try {
+                System.out.println("Введите путь до папки:");
+                File file = new File(reader.readLine());
 
-                    } else {
-                        System.out.println("Файл отсутствует");
-                        continue;
-                    }
-                    print();
-                    System.out.println();
-                } catch (Exception e) {
-                    e.printStackTrace();
+                double size = FileUtils.calculateFolderSize(String.valueOf(file));
+                if (file.exists()) {
+                    File dir = new File(file.getPath());
+                    print(size, dir);
+                } else {
+                    System.out.println("Файл отсутствует");
+                    continue;
                 }
-            }
-        }
-
-        private static void print () {
-            double size = FileUtils.calculateFolderSize(String.valueOf(path));
-            if (size > GIGABYTE) {
-                System.out.printf("Размер папки ", path, " составляет ", size / GIGABYTE,
-                        " гигабайтов");
-            } else if (size > MEGABYTE) {
-                System.out.printf("Размер папки ", path, " составляет ", size / MEGABYTE,
-                        " мегабайтов");
-            } else if (size > KILOBYTE) {
-                System.out.printf("Размер папки ", path, " составляет ", size / KILOBYTE,
-                        " килобайтов");
-            } else {
-                System.out.printf("Размер папки ", path, " составляет ", size);
+                System.out.println();
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }
+
+    private static void print(double size, File dir) {
+        StringBuffer sb = new StringBuffer();
+
+        sb.append("Размер папки ").append(dir).append(", составляет ");
+
+        if (size > GIGABYTE) {
+           sb.append(String.format("%.1f", size / GIGABYTE )).append(" гигабайт");
+        } else if (size > MEGABYTE) {
+            sb.append(String.format("%.1f", size / MEGABYTE)).append(" мегабайт");
+        } else if (size > KILOBYTE) {
+            sb.append(String.format("%.1f", size / KILOBYTE)).append(" килобайт");
+        } else {
+            System.out.print(size);
+        }
+        System.out.print(sb);
+    }
+
+}
 
