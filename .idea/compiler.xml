@@ -10,10 +10,12 @@
         <module name="Inheritance3" />
         <module name="spb-metro (1)" />
         <module name="spb-metro" />
+        <module name="folder-copy" />
         <module name="LambdaExpressions7.1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="folder-copy" target="11" />
       <module name="folder-size" target="11" />
       <module name="Inheritance3" target="11" />
       <module name="LambdaExpressions7.1" target="11" />
