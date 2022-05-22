@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="folder-copy" />
         <module name="folder-size" />
         <module name="Inheritance3" />
         <module name="spb-metro (1)" />
         <module name="spb-metro" />
-        <module name="folder-copy" />
+        <module name="read-movements-csv" />
         <module name="LambdaExpressions7.1" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="folder-size" target="11" />
       <module name="Inheritance3" target="11" />
       <module name="LambdaExpressions7.1" target="11" />
+      <module name="read-movements-csv" target="11" />
       <module name="spb-metro" target="11" />
       <module name="spb-metro (1)" target="8" />
     </bytecodeTargetLevel>

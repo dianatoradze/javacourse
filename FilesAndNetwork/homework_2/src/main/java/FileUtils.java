@@ -26,7 +26,6 @@ public class FileUtils {
                 for (int i = 0; i < source.size(); i++) {
                     Files.copy(source.get(i), destination.get(i), StandardCopyOption.REPLACE_EXISTING);
                 }
-                System.out.println("Файлы скопированы!");
             }catch (IOException e){
                 e.printStackTrace();
             }
