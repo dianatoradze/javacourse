@@ -1,32 +1,66 @@
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Movements {
-    private String pathMovementsCsv;
-    private double income = 0;
-    private double expense = 0;
+
+    private double income;
+    private double expense;
+    private double sumIncome;
+    private double sumExpense;
     private final Map<String, Double> resultExpences = new HashMap<>();
+    String[] values;
 
     public Movements(String pathMovementsCsv) {
 
-        this.pathMovementsCsv = pathMovementsCsv;
+        List<String> lines = null;
+        try {
+            lines = Files.readAllLines(Paths.get(pathMovementsCsv));
+
+            for (int i = 1; i < lines.size(); i++) {
+
+                values = lines.get(i).split(",", 8);
+
+                income = Double.parseDouble(values[6]);
+                sumIncome += income;
+                expense = Double.parseDouble(values[7].replaceAll("\"", "").replace(',', '.'));
+                sumExpense += expense;
+                setIncome(values);
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public double getIncomeSum() {
+
+        setIncome(values);
+
+        return  sumIncome ;
+
     }
 
-    public void getIncomeSum(String path) {
-
-        String[] source = path.split(",", 8);
-        double incomeSplit = Double.parseDouble(source[6]);
-        double expenseSplit = Double.parseDouble(source[7].replaceAll("\"", "").replace(',', '.'));
-        if (incomeSplit == 0) getExpenseSum(source[5], expenseSplit);
-        this.income += incomeSplit;
-    }
-
-    public void getExpenseSum(String expenseParties, double expense) {
+    public double getExpenseSum() {
         this.expense += expense;
 
-        String[] item = expenseParties.trim().split(" {3,}");
-        String[] values = item[1].split("/");
-        String[] expenseItem = values[values.length - 1].split("\\\\");
+        return sumExpense;
+    }
+
+    private void setIncome(String[] values) {
+        if (income == 0) {
+            String parts = values[5];
+            split(parts, expense);
+        }
+        else this.income += income;
+    }
+
+    private void split(String parties, double expenseSplit) {
+        String[] item = parties.trim().split(" {3,}");
+        String[] value = item[1].split("/");
+        String[] expenseItem = value[value.length - 1].split("\\\\");
         String amount = expenseItem[expenseItem.length - 1];
 
         if (!resultExpences.containsKey(amount))
@@ -38,13 +72,15 @@ public class Movements {
         }
     }
 
+
     public void print() {
-        System.out.printf("Сумма расходов: %.2f руб.\n", expense);
-        System.out.printf("Сумма доходов: %.2f руб.\n", income);
+        System.out.printf("Сумма расходов: %.2f руб.\n", getExpenseSum());
+
+        System.out.printf("Сумма доходов: %.2f руб.\n", getIncomeSum());
         System.out.println();
         System.out.println("Сумма расходов по организациям:");
-        for (String supplies : resultExpences.keySet()) {
-            System.out.printf("%-10s  %.2f %-10s\n", supplies, resultExpences.get(supplies), "руб.");
+        for (String parts : resultExpences.keySet()) {
+            System.out.printf("%-10s  %.2f %-10s\n", parts, resultExpences.get(parts), "руб.");
         }
 
     }
