@@ -35,11 +35,12 @@ public class Movements {
             e.printStackTrace();
         }
     }
+
     public double getIncomeSum() {
 
         setIncome(values);
 
-        return  sumIncome ;
+        return sumIncome;
 
     }
 
@@ -53,8 +54,7 @@ public class Movements {
         if (income == 0) {
             String parts = values[5];
             split(parts, expense);
-        }
-        else this.income += income;
+        } else this.income += income;
     }
 
     private void split(String parties, double expenseSplit) {
