@@ -3,25 +3,35 @@ import java.util.List;
 
 public class Line
 {
-    private String numberLine;
+    private String number;
     private String name;
+    private List<Station> stations;
 
-
-    public Line(Line number, String name)
+    public Line(String number, String name)
     {
-        this.numberLine = number;
+        this.number = number;
         this.name = name;
-
+        stations = new ArrayList<>();
     }
 
-    public String getNumberLine()
+    public String getNumber()
     {
-        return numberLine;
+        return number;
     }
 
     public String getName()
     {
         return name;
     }
+
+    public void addStation(Station station)
+    {
+        stations.add(station);
+    }
+
+    public List<Station> getStations()
+    {
+        return stations;}
+
 
 }
