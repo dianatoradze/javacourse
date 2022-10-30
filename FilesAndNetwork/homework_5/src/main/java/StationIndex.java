@@ -3,26 +3,26 @@ import com.google.gson.annotations.SerializedName;
 import java.util.*;
 
 public class StationIndex {
-    @SerializedName("lines")
-    HashMap<String, Line> lines;
-    @SerializedName("stations")
+
+    HashMap<String, Line> line;
+
     TreeSet<Station> stations;
 
     public StationIndex() {
-        lines = new HashMap<>();
+        line = new HashMap<>();
         stations = new TreeSet<>();
 
     }
 
     public void addLine(Line line)
     {
-        if (!lines.containsKey(line.getNumber())) {
-            lines.put(line.getNumber(), line);
+        if (!this.line.containsKey(line.getNumber())) {
+            this.line.put(line.getNumber(), line);
         }
     }
     public Line getLine(String number)
     {
-        return lines.get(number);
+        return line.get(number);
     }
 
     public void addStation(Station station)
@@ -47,7 +47,7 @@ public class StationIndex {
     @Override
     public String toString() {
         return
-                "lines " + lines +
+                "line " + line +
                 ", stations=" + stations;
     }
 }

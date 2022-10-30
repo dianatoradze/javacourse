@@ -1,46 +1,79 @@
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.google.gson.*;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 
 public class Parser {
-
-    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     private static TreeSet<Station> stations = new TreeSet<>();
     ;
     private static HashMap<String, Line> lines = new HashMap<>();
     private static TreeMap<Station, TreeSet<Station>> connections = new TreeMap<>();
-    private static StationIndex stationIndex;
+
+    private static String pathFile = "src/main/resources/map.json";
 
     public final String URL = "https://skillbox-java.github.io/";
 
-    static void createJsonFile() throws IOException {
+    private static StationIndex stationIndex;
+    static void addLines(Document doc) {
 
-        stationIndex = new StationIndex();
-        try (FileWriter file = new FileWriter("C:/Users/diana/Documents/Java/Программы/java_basics/FilesAndNetwork/homework_5/src/main/resources/map.json")) {
-            file.write(GSON.toJson(stationIndex));
+
+        for (Element row : doc.select("div[id=metrodata]")) //add Lines
+        {
+            if (row.select("js-metro-line").text().equals("")) {
+                continue;
+            }
+            List<String> nameLine = Collections.singletonList(row.attr("data-line"));
+            List<String> numberLine = Collections.singletonList(row.text());
+            if (nameLine.get(0) == null || numberLine.get(0) == null) {
+                continue;
+            }
+            Line line = new Line(numberLine.get(0), nameLine.get(0));
+            stationIndex.addLine(line);
+
+            if (nameLine.size() > 1) {
+                Line line2 = new Line(numberLine.get(1), nameLine.get(1));
+                stationIndex.addLine(line2);
+            }
         }
     }
 
-     static String getJsonFile() {
-        StringBuilder builder = new StringBuilder();
-        try {
-            List<String> lines = Files.readAllLines(Paths.get("src/main/resources/map.json"));
-            lines.forEach(line -> builder.append(line));
-        } catch (Exception ex) {
-            ex.printStackTrace();
+    static void addStations(Document doc) {
+        for (Element row : doc.select("div[id=metrodata]"))  //add Station
+        {
+            if (row.select("js-metro-stations").text().equals("")) {
+                continue;
+            }
+            List<String> nameLine = Collections.singletonList(row.attr("data-line"));
+            List<String> numberLine = Collections.singletonList(row.text());
+            Elements nameStations = row.getElementsByClass("name");
+
+            String nameStation = nameStations.text();
+
+            Line line = new Line(numberLine.get(0), nameLine.get(0));
+            Station station = new Station(nameStation, line);
+            stationIndex.addStation(station);
+            if (nameLine.size() > 1) {
+                Line line2 = new Line(numberLine.get(1), nameLine.get(1));
+                Station station2 = new Station(nameStation, line2);
+                stationIndex.addStation(station2);
+            }
         }
-        return builder.toString();
     }
 
+    static void parseStations(JSONObject stationsObject) {
 
+        stationsObject.keySet().forEach(lineNumberObject ->
+        {
+            String lineNumber = (String) lineNumberObject;
+            JSONArray stationsArray = (JSONArray) stationsObject.get(lineNumberObject);
+
+            System.out.println("Номер линии - " + lineNumber + ", всего станций - " + stationsArray.size());
+        });
+    }
 }
