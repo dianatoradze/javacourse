@@ -1,12 +1,12 @@
 
+import java.io.File;
 import java.io.IOException;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -19,12 +19,15 @@ public class DirectoriesFile {
 
         try {
 
-            String[] extensions1 = {"json","csv"};
+            String[] extensions1 = {"json"};
 
             List filesJson = findFiles(Paths.get(path), extensions1);
-            //List datesJson = loadDatesFromFile(path);
-            filesJson.forEach(x -> System.out.println(x));
-            //datesJson.forEach(System.out::println);
+
+
+            filesJson.forEach(x -> {
+                System.out.println(nameFile(Collections.singletonList(x)));
+            });
+
         }
 
         catch (Exception e) {
@@ -32,9 +35,14 @@ public class DirectoriesFile {
         }
 
     }
-    public static List loadDatesFromFile(String path) {
-        return getList(path);
+
+    public static String nameFile(List filesJson) {
+        String name = new File(String.valueOf(filesJson)).getName();
+
+        int idx = name.replaceAll("\\\\", "").lastIndexOf("/");
+        return idx >= 0 ? name.substring(idx + 1) : name;
     }
+
     public static List findFiles(Path path, String[] fileExtensions) throws IOException {
 
         if (!Files.isDirectory(path)) {
@@ -51,22 +59,6 @@ public class DirectoriesFile {
         }
         return result;
 
-    }
-    static List getList(String path) {
-        List date = new ArrayList<>();
-        try {
-            List<String> lines = Files.readAllLines(Paths.get(path));
-            for (String line : lines) {
-                String[] fragments = line.split("\t");
-
-                String dateFormat = "dd.MM.yyyy";
-                date.add((new SimpleDateFormat(dateFormat)).parse(fragments[1])
-                );
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        return date;
     }
 
     private static boolean isEndWith(String file, String[] fileExtensions) {

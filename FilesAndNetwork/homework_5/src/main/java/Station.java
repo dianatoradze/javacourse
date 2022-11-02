@@ -1,9 +1,12 @@
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+
 import java.util.Date;
 
 public class Station implements Comparable<Station>
 {
     private Line line;
     private String name;
+    @JsonDeserialize(using = DateHandler.class)
     private String date;
     private String depths;
 
@@ -14,8 +17,8 @@ public class Station implements Comparable<Station>
     }
 
     public Station() {
-//        this.date = date;
-//        this.depths = depths;
+        this.date = date;
+        this.depths = depths;
     }
 
 

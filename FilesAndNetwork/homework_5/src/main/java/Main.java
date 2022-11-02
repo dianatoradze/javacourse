@@ -30,17 +30,16 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         System.out.println("Схема маршрута метрополитена Москвы\n");
-        System.out.println(loadDatesFromFile(path));
+       // System.out.println(loadDatesFromFile(path));
         getStationIndex(url);
         createJsonFile();
 
         getStationCount();
 
         String[] extensions1 = {"json"};
-        List filesJson = DirectoriesFile.findFiles(Paths.get(path), extensions1);
+        List filesJson = DirectoriesFile.findFiles(Paths.get(path), extensions1); // файлы json, csv
         Station station = new Station(); // create stations.json
-        List dateParse = loadDatesFromFile(path);
-        if (filesJson.contains(dateParse)) {
+
             try (PrintWriter out = new PrintWriter(new FileWriter(pathJson))) {
 
                 String jsonString = GSON.toJson(station);
@@ -50,30 +49,7 @@ public class Main {
             catch (Exception e) {
                 e.printStackTrace();
             }
-        }
 
-
-    }
-
-    public static List loadDatesFromFile(String path) {
-        return getList(path);
-    }
-
-    static List getList(String path) {
-        List date = new ArrayList<>();
-        try {
-            List<String> lines = Files.readAllLines(Paths.get(path));
-            for (String line : lines) {
-                String[] fragments = line.split("\t");
-
-                String dateFormat = "dd.MM.yyyy";
-                date.add((new SimpleDateFormat(dateFormat)).parse(fragments[1])
-                );
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        return date;
     }
 
     private static void getStationIndex(String url) {
